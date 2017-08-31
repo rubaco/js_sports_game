@@ -1,0 +1,82 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+    section{
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .hide {
+
+    }
+
+
+
+#score{
+display: flex;
+  width: 30%;
+}
+
+  #nfl_logo {
+      visibility: visible;
+
+    }
+
+
+    #dragon img{
+      visibility: hidden;
+      text-align: center;
+      clear: both;
+    }
+
+
+
+    .navigation{
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    #score-display div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 200px;
+      align-content: center;
+    }
+
+    .right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33%
+    }
+
+    .left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33%
+    }
+
+    .navigation h1{
+
+    }
+
+    .navigation h2{
+
+    }
+
+    .hits{
+      display: flex;
+      flex-direction: column;
+    }

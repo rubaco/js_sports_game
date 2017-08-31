@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JS Game Challenge</title>
+  <style type="text/css">
+
+  </style>
+  <link type="text/css" rel="stylesheet" href="assets/stylesheets/game.css" />
+</head>
+
+<body id="body">
+  <div>
+    <nav>
+      <div class="navigation" id="navigation">
+        <h1 style="margin-bottom:5px" id="logo">NFL Football</h1>
+        <img id="nfl_logo" src="assets/images/nfl.png" width="50px" height="50px" alt="">
+      </div>
+
+
+      <div style="margin: 0 auto;text-align:center">
+    </nav>
+    <button id="reset">RESET</button><br> NUMBER OF RESETS: <span id="num-resets">0</span>
+    </div>
+    <div class="">
+
+    </div>
+
+
+    <div class="clear"></div>
+    <section>
+      <div class="left">
+        <h2>
+          Team 1
+        </h2>
+        <div class="hits">
+          PLAYS: <span id="teamone-numshots">0</span><br> SCORE: <span id="teamone-numhits">0</span>
+        </div>
+        <div>
+          <button id="teamone-shoot">MAKE PLAY</button>
+        </div>
+      </div>
+
+      <div id="score_display">
+      <h3 id="pointScored"></h3>
+      <img src="assets/images/touchdown.jpg" id="score" width="" height="200px" alt="">
+      </div>
+      <div class="right">
+        <h2>
+          Team 2
+        </h2>
+        <div class="hits">
+          SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br> GOALS: <span id="teamtwo-numhits">0</span>
+        </div>
+        <div>
+          <button id="teamtwo-shoot">SHOOT</button>
+        </div>
+      </div>
+    </section>
+    <div class="clear"></div>
+  </div>
+  <!-- Link your JS file using the script tag -->
+  <script src="assets/javascripts/game.js"></script>
+</body>
+
+</html>
